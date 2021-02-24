@@ -1,8 +1,10 @@
 import Head from 'next/head'
+
+import { client } from '@utils/prismicPosts'
+
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
-import { client } from '@utils/prismicPosts'
 import Post from '@components/Post'
 
 export default function Home() {
