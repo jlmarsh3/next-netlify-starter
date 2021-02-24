@@ -50,6 +50,9 @@ export default function Home({ posts }) {
           display: flex;
           border: 1px solid blue;
         }
+        .post {
+          border: 1px solid red;
+        }
       `}</style>
 
       <style jsx global>{`
