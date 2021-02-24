@@ -48,6 +48,7 @@ export default function Home({ posts }) {
         }
         .posts {
           display: flex;
+          border: 1px solid blue;
         }
       `}</style>
 
