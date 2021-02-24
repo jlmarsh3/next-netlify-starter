@@ -9,7 +9,15 @@ function Post({ date, image, title }) {
           <h2>{title}</h2>
           <h3>{date.substring(0, 10)}</h3>
         </div>
+
+        <style jsx>{`
+        .post {
+          border: 1px solid red;
+        }
+      `}</style>        
       </div>
+
+      
     )
   }
   export default Post
